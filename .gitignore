@@ -1,0 +1,4 @@
+# ignore all the dist folders
+**/dist/ 
+**/.env
+**/node_modules
