@@ -1,0 +1,16 @@
+{
+  "name": "upload_service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "arsen1c",
+  "scripts": {
+    "start": "tsc && node dist/index",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.4"
+  }
+}
